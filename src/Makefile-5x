@@ -67,14 +67,14 @@ MORE_CFLAGS = -I. -Izip \
  -DPSPFW30X \
  -DPSP7800_VERSION=\"$(PSP7800_VERSION)\" \
  -DUSE_PSP_IRKEYB \
- -DNO_STDIO_REDIRECT
+ -DNO_STDIO_REDIRECT -G0
 
 OPTIM_CFLAGS= -O3
 
 CFLAGS = $(DEFAULT_CFLAGS) $(MORE_CFLAGS)
 CXXFLAGS = $(DEFAULT_CFLAGS) $(MORE_CFLAGS) -fno-exceptions -fno-rtti
 
-LIBS += -lpspirkeyb -lSDL_image -lSDL -lpng -ljpeg -lpspaudio -lpspgu -lpsppower -lpsphprm -lz -lm -lstdc++
+LIBS += -lSDL_image -lSDL -lGL -lpspirkeyb -lpsprtc -lpspvfpu -lpng -ljpeg -lpspaudio -lpspgu -lpsppower -lpsphprm -lz -lm -lstdc++
 
 BUILD_PRX=1
 
