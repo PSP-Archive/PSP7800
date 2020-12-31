@@ -1,0 +1,143 @@
+1.2.0
+
+- Improve global emulation speed !
+- New render modes 
+- Add vertical shift feature 
+- Finally fix issue with "Home -> Exit" !
+- Add documentation for settings in help menu
+- The virtual keyboard is now usable in the file requester menu to
+  choose the first letter of the game you search !
+- Improve file requester with virtual keyboard to choose 
+  sequentially rom files beginning with a given letter
+- Text editor to write your own comments on games 
+- Display first comment line while browsing game files
+- Cheat support !
+- Memory monitoring engine to find your own cheat code !
+- Text editor to modify the global cheat.txt file
+- Zip rom files are now decompressed in memory (much faster !)
+- Add option to disable auto fire in settings menu
+- Add eboot music (see http://www.jamendo.com/en/artist/nexus)
+- Source code can now be compiled to build a linux version
+
+
+1.1.3
+
+- Sound improvement & NTSC Palette fix by Carpy (aka Danno)
+- A thumbnail image is now displayed in the file requester 
+  while selecting any file with the same name of a previously 
+  saved game.
+  It might be very helpful to recognize that game later if you 
+  have thousand different games in your rom folder !
+- Auto-fire uses now the key mapped as Cross button instead of FIRE1
+  (games such as Xevious use FIRE2 for fire so it is better this way)
+- In the emulator menu you can go directly to keyboard and settings
+  menu using the L-Trigger key.
+- Fix IR keyboard issue with fw >= 3.80 for FAT PSP
+- Fix random black screen issue
+- Bug fix in the low battery watchdog
+
+1.1.2
+
+- Major speed improvements (> 60 fps at 222Mhz)
+  but limited at 50fps by default
+- Auto-fire mode, press RTrigger+X to switch it on/off
+  useful for games such as space Xevious !
+  On given games, the auto fire can't be stopped easily
+  (so you might have to disable it several times)
+- It uses now only PSP GU for rendering
+- IR keyboard support 
+  (pretty useless, but don't forget, i'm a shadok)
+- Add several new hotkeys :
+  . settings such as fps, render mode, auto fire speed
+    can now be directly modified inside the emulator
+    (no need to enter in the settings menu)
+  . quick save / quick load current state
+    (no need to enter in the main menu)
+- RTrigger/LTrigger keys can be used in the keyboard
+  settings menu to navigate between Normal, LTrigger 
+  and  RTrigger compose mapping.
+- Analog pad can be used in the rom file requester
+- Default Hotkeys can now be set in the keyboard mapping menu
+  (useful to add hotkeys on existing/previous keyboard files)
+- Bug fix in the low battery watchdog
+
+1.1.1
+
+- Sound engine back to previous version
+
+1.1.0
+
+- Display and save thumbnail images for each save state
+- IR keyboard support (mainly for menu)
+- Add option to display fps rate
+- Option to prevent the blue led to be displayed when
+  L or R are pressed
+- Add option to display fps rate
+- New psp clock option (it can now run at 133 Mhz)
+- New speed limiter function
+- New sound engine (always crappy but faster)
+- Import code from ProSystem version 1.2
+
+1.0.8
+
+- Compatible with custom firmwares 3.x and PSP-slim
+- Add a simple intro splash screen  
+- Support iso8859-1 fonts in print text functions 
+  (might be useful to translate psp2600 menus in german, french ...)
+- Bug fix in file requester
+
+1.0.7
+
+- Bug fix in sound
+- Bug fix in image display 
+
+1.0.6
+
+- Merge diff from ProSystem v1.2
+- Add option to display frame rate
+- Improve speed
+- New speed limiter function
+- New background image
+- Bug fix in file requester 
+
+
+1.0.5
+
+- New graphical functions with new smoother render modes.
+  It uses the PSP GPU for rendering, it does not run faster, 
+  but it's a lot smoother.
+- Add a new fullscreen option (render mode max)
+- Rom selector support now .rom and .bin as valid file extention
+- Save state dates are displayed in the emulator window
+  (it's now easier to identify and to load the right save state slot)
+- Multiple keyboard mapping feature (Thanks to Pou-chan) :
+  You can now toggle between three differents keyboard mapping using 
+  LTrigger and RTrigger keys
+- Bug fix in Rom file requester 
+
+1.0.4
+
+The two following features were presents in the original ProSystem 
+emulator but had been disabled during the PSP port :
+- Add bios file support (you need the 7800.rom file)
+- Add games database system (prosystem.dat file)
+- Load default.kbd file on startup (if file is present in kbd folder)
+
+1.0.3
+
+- Bug fix : All roms (such as BallBlazer) that used the Pokey audio chip 
+  made the emulator to crash !
+- New icons from Gelon :)
+
+1.0.2
+
+- Add Sound support !
+- Add Render modes (Normal, x1.25, x1.5)
+- Add Frame skip option 
+- Add new speed limiter option
+- Fix colors palette (merge the code from ProSystem v1.1)
+- Code cleaning
+
+1.0.1
+
+- Intial release

@@ -1,0 +1,7 @@
+ProSystem : 
+
+  Greg Stanton (see http://home.comcast.net/~gscottstanton/) 
+
+PSP7800 : Porting on PSP
+
+  Ludovic Jacomme alias Zx-81 (see http://zx81.zx81.free.fr)
